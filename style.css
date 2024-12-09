@@ -1,0 +1,465 @@
+.logo{
+    float: left;
+
+}
+.uk{
+    margin-top: 50px;
+    margin-right: 10px;
+    width: 35px;
+    height:35px;
+    float: right;
+    transition: transform 0.5s ease;
+
+}
+.uk:hover{
+    transform: rotate(180deg);
+}
+.global{
+    width: 100%;
+}
+
+
+header{
+       background-color: black;
+       width: 100%;
+       height: 52px;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-evenly;
+     
+}
+.element{
+    color:rgb(172, 170, 170);
+    
+}
+
+.element a{
+ color: aliceblue;
+ border: 0px solid;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 30px;
+ padding-right: 30px;
+ text-decoration: none;
+ font-size: 16px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.element a:hover{
+ background-color: rgb(150, 150, 150); 
+ padding-top: 15px;
+ padding-bottom: 15px;
+ padding-left: 30px;
+ padding-right: 30px;
+ border: 0px  solid;
+ border-radius: 10%;
+ font-size: 18px; 
+}
+
+.first_img{
+    margin-top: 15px;
+    width: 100%;
+    height:150px;
+    object-fit: cover;
+
+}
+.first_img:hover{
+    margin-top: 20px;
+     box-shadow: 10px 10px 5px rgb(138, 152, 50);
+     
+
+}
+.first_article_left{
+    width: 99%;
+    text-align: justify;
+    margin-left: 1%;
+}
+.list1,.list2{
+    background-color: gray;
+    width:87%;
+   padding-left:6px ;
+   padding-bottom: 11px;
+   padding-top: 6px;
+   margin-left: 35px;
+}
+ul{
+     list-style: none;
+}
+ul li {
+    line-height: 20px;
+    
+}
+ .lists{
+    float: right;
+    width: 26%;
+    
+ }
+ .left_section{
+    float: left;
+    width: 74%;
+ }
+ .list_title{
+    margin-bottom: 0.5px;
+    margin-top: 3px;
+    font-size:40px;
+        font-family:  Arial, sans-serif;
+        font-weight:500;
+
+    margin-left: 44px;
+ }
+
+
+ .first_title_left{
+        margin-top: 5px;
+        margin-bottom: 2px;
+        font-size:40px;
+        font-family:  Arial, sans-serif;
+        font-weight:500;
+
+ }
+
+ .fouter_parag{
+         float: right;
+ }
+.the_three_text{
+        width: 90%;
+        text-align: justify;
+        margin-left: 3%;
+ }
+ .the_three_img{
+    width: 100%;
+    height: 100px;
+ }
+ .fouter_parag{
+     float: left;
+ }
+ .before_fouter{
+    width: 100%;
+       display: flex;
+       flex-direction: row;
+       align-items: center;
+       justify-content: space-around;
+ }
+ .text_and_image1_2{
+        margin-right: 5%;
+        margin-left: 1%;
+        margin-bottom: 20px;
+ }
+ .text_and_image3{
+    margin-right: 1%;
+    margin-bottom: 20px;
+
+ }
+
+.text_under_img{
+        margin-top: 2px;
+        margin-left: 3%;
+        font-weight: bolder;
+        font-style: italic;
+}
+.read{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: black;
+    
+}
+.title_before_fouter{
+    font-size:40px;
+    font-family:  Arial, sans-serif;
+    font-weight:500;
+    margin-bottom: 1%;
+    margin-top: 1%;
+
+    margin-left: 01.5%;
+
+}
+.text_and_image1_2:hover{
+    margin-top: 20px;
+     box-shadow: 10px 10px 5px rgb(138, 152, 50);
+     
+
+}
+
+.text_and_image3:hover{
+    margin-top: 20px;
+    box-shadow: 10px 10px 5px  rgb(138, 152, 50);
+}
+footer{
+     background-color: gray;
+     width: 100%;
+     height: 52px;
+    
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content:space-evenly;
+}
+
+.element_f a{
+    color: black;
+    border: 0px solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   }
+   
+   .element_f a:hover{
+    background-color: rgb(150, 150, 150); 
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 0px  solid;
+    border-radius: 10%;
+    font-size: 18px;
+   
+      
+   }
+
+
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+|-------------------------------------------------------------------------------------------------------------------------------|
+|                                                              media query                                                      |           
+|-------------------------------------------------------------------------------------------------------------------------------|                                                                                                                                           */ 
+
+
+
+
+/*---------------------------------------------------------------mobile---------------------------------------------------------*/
+
+@media screen and (max-width : 431px){ 
+    
+    .logo{
+        margin-bottom: 1px;
+    }
+    .left_section{
+        float: left;
+        width: 100%;
+     }
+    header{
+        background-color: black;
+        width: 100%;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+ }
+
+    
+    
+     
+    .first_img{
+        width: 100%;
+        margin-top: 15px;
+        width: 100%;
+        height:150px;
+        object-fit: cover;
+    
+    }
+    .first_article_left{
+        width: 100%;
+        text-align: justify;
+    }
+    .fouter_parag{
+        width: 100%;
+    }
+    .before_fouter{
+        width: 100%;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: space-around;
+     }
+     .lists{
+        width: 100%;
+        float: left;
+        
+     }
+     .title_and_liste1{
+        width: 80%;
+        
+
+     }
+     
+     .title_and_liste2{
+        width: 80%;
+       
+     }
+     .list1,.list2{
+        background-color: gray;
+        width: 100%;
+       padding-left:2px ;
+       padding-bottom: 11px;
+       padding-top: 6px;
+       margin-left: 25px;
+       
+    
+    
+    }
+    .text_and_image3{
+      
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .text_and_image1_2{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .the_three_text{
+        width:90%;
+        text-align: justify;
+ }
+ .the_three_img{
+    width: 100%;
+    height: 150px;
+ }
+ .fouter_parag{
+    width: 100%;
+ }
+ .element a:hover{
+    padding: 5px 8px 5px 8px;
+    background-color: rgb(160, 172, 183);
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer{
+     background-color: gray;
+     width: 100%;
+     height: 150px;
+    
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content:space-evenly;
+}
+
+
+    
+}
+.element_f:hover{
+    padding: 5px 8px 5px 8px;
+    background-color: rgb(160, 172, 183);
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+/*---------------------------------------------------------------tablet---------------------------------------------------------*/
+@media screen and (min-width : 432px) and (max-width : 1503px) {
+  
+   
+     .left_section{
+        float: left;
+        width: 100%;}
+
+    .first_img{
+        margin-top: 15px;
+        width:90%;
+        height:150px;
+        object-fit: cover;
+        margin-left: 5%;
+        margin-right: 5%;
+       
+       
+    
+    }
+    .first_article_left{
+        width: 90%;
+        text-align: justify;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .before_fouter{
+        width: 100%;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: space-around;
+     }
+     .lists{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+     }
+     .title_and_liste1{
+        width: 45%;
+        
+        
+
+     }
+     .fouter_parag{
+        width: 100%;
+     }
+     
+     .title_and_liste2{
+        width: 45%;
+        
+       
+     }
+     .list1,.list2{
+        background-color: gray;
+        width:auto;
+        height: auto;
+       padding-left:2px ;
+       padding-bottom: 11px;
+       padding-top: 6px;
+       margin-left: 11%;
+       
+    
+    
+    }
+    .list_title{
+        margin-left: 15%;
+    }
+    .text_and_image3{
+        width: 90%;
+        margin-left: -1px;
+        object-fit: cover;
+    }
+    .text_and_image1_2{
+        width: 90%;
+        margin-right: 0px;
+        object-fit: cover;
+    }
+    .the_three_text{
+        width:90%;
+        text-align: justify;
+ }
+ .the_three_img{
+    width: 100%;
+    height: 150px;
+ }
+ .title_before_fouter{
+    margin-left: 5%;
+ }
+
+
+    
+}
